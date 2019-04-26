@@ -22,7 +22,7 @@ public class loginPage extends driverclass
 	{
 		CommonFunctions.Sendkeys(Ama_username, "7867947384");
 		CommonFunctions.ActionClick(Ama_continue);
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		WebElement Ama_Pasword = driver.findElement(By.xpath("//div/input[@type='password']"));
 		CommonFunctions.ActionSendKeys(Ama_Pasword, "XXXXX");
 		Thread.sleep(3000);
